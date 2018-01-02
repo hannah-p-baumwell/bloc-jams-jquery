@@ -26,7 +26,6 @@
     const previousSong = album.songs[previousSongIndex];
     player.playPause(previousSong);
   });
-
 $('#time-control input').on('input', function (event) {
   player.skipTo(event.target.value);
 });
